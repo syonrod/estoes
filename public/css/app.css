@@ -17590,3 +17590,28 @@ a.logo img {
   height: 25px;
 }
 
+.side-menu {
+  position: fixed;
+  height: 100vh;
+  widows: 200px;
+  background-color: #f7f7f7;
+  overflow-y: scroll;
+}
+
+.management-area {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+table.table {
+  width: 100%;
+}
+
+div.create-user {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
